@@ -7,7 +7,7 @@ function Navbar() {
     <>
     <div class="collapse" id="navbarToggleExternalContent">
   <div class="bg-dark p-2 text-center">
-    <a class="text-white text-decoration-none ms-4">Who is this guy?</a>
+    <a class="text-white text-decoration-none ms-4" href="/">Who's this guy?</a>
     <a class="text-white text-decoration-none ms-4">Skills</a>
     <a class="text-white text-decoration-none ms-4">Portfolio</a>
     <a class="text-white text-decoration-none ms-4">Certifications</a>

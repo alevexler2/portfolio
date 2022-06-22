@@ -1,19 +1,19 @@
 import React from 'react';
-import Avatar from '../../img/avataaars.svg';
+import Avatar from '../../img/avatarale.png';
 import 'animate.css';
 import styles from '../Main/Main.module.css';
 
 function Main() {
   return (
-    <div className={`container-fluid ${styles.bgMain}`}>
+    <div className={`container-fluid `}>
       <div className='row align-items-center' style={{height: "93vh"}}>
-      <div className='col-sm-12 col-lg-6 text-center '>
-        <img src={Avatar} alt="avatar" />
-      </div>
-      <div className='col-sm-12 col-lg-6 text-center'>
-        <p className={`fw-bold display-4 text-light animate__animated animate__lightSpeedInLeft ${styles.textShadow}`}>FullStack developer</p>
-        <p className={`fw-bold display-4 text-light animate__animated animate__lightSpeedInRight ${styles.textShadow}`}>Stack MERN</p>
-      </div>
+        <div className={`col-12 text-center ${styles.bgMain} d-flex align-items-center justify-content-center`}>
+          <div className='d-flex flex-column'>
+            <img src={Avatar} alt="avatar" className={`img-fluid ${styles.imgSizing} `} />
+            <p className={`fw-bold display-4 animate__animated animate__lightSpeedInLeft ${styles.textStyle}`}>FullStack developer</p>
+            <p className={`fw-bold display-4 animate__animated animate__lightSpeedInRight ${styles.textStyle}`}>Stack MERN</p>
+          </div>
+        </div>
       </div>
     </div>
   )

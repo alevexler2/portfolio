@@ -1,0 +1,28 @@
+.bgImg{
+    background-image: 
+    linear-gradient(
+  90deg,
+  rgba(150, 150, 150, 0.2),
+  rgb(58, 58, 58)
+  )
+  ,url(../../img/backgroundWhoisthisguy.svg);
+    /* background-attachment: local; */
+    background-color: rgba(0, 0, 0, 0.4);
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: left;
+    height: 100%;
+}
+
+.textColor{
+  color: white;
+}
+.textShadow{
+    text-shadow: 1px 1px 2px black;
+  }
+.cardBg{
+  background-color: rgba(150, 150, 150, 0.2);
+}
+hr{
+  border-top: 5px solid var(--main-bg-color);
+}

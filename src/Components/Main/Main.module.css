@@ -1,8 +1,24 @@
+:root {
+  --main-bg-color: rgba(224, 85, 57);
+}
 .bgMain{
-  background-image: url(../../img/fondo-de-programacion-web_ok.jpg);
+  background: 
+  linear-gradient(
+    180deg,
+    var(--main-bg-color),
+    rgba(0, 0, 0, 1)
+    );
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  height: 93vh;
 }
 
-.textShadow{
+.textStyle{
   text-shadow: 1px 1px 2px black;
+  color: white;
+}
+
+.imgSizing{
+  height: 50vh;
 }
