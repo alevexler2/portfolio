@@ -6,13 +6,14 @@
   rgb(58, 58, 58)
   )
   ,url(../../img/backgroundWhoisthisguy.svg);
-    /* background-attachment: local; */
+    background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.4);
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: contain;
     background-position: left;
     height: 100%;
 }
+
 
 .textColor{
   color: white;

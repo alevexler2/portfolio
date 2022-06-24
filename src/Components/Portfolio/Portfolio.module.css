@@ -1,0 +1,18 @@
+body{
+  background: 
+  linear-gradient(
+    180deg,
+    rgba(150, 150, 150, 0.2),
+    rgb(58, 58, 58)
+    );
+}
+.imageSize{
+  border-radius: 100%;
+  width: 25vw;
+  height: 50vh;
+  -webkit-filter: grayscale(100%);
+}
+.imageSize:hover{
+  transform: scale(0.9);
+  -webkit-filter: grayscale(0%);
+}

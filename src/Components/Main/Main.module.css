@@ -20,5 +20,6 @@
 }
 
 .imgSizing{
-  height: 50vh;
+  height: auto;
+  max-height: 60vh;
 }
