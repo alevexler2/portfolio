@@ -1,6 +1,6 @@
 import React from 'react';
 import Avatar from '../../img/avatarale.png';
-import 'animate.css';
+import 'animate.css'
 import styles from '../Main/Main.module.css';
 
 function Main() {

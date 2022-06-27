@@ -2,26 +2,25 @@ import React from 'react'
 import styles from './WhoIsThisGuy.module.css'
 import 'animate.css';
 
-// const handleAnimation = () => {       
-//   if (document.documentElement.scrollTop > 50) {           
-//    this.setState({ classCard: 'visible' });  
-//  };
 
-window.addEventListener('scroll', ()=>{
-  document.getElementById('whoIsThisGuyContainer1').classList.add('animate__fadeInLeft')
-  document.getElementById('whoIsThisGuyContainer2').classList.add('animate__fadeInRight')
-})
+
 
 
 
 
 function WhoIsThisGuy() {
+  
+  window.addEventListener('scroll', ()=>{
+    document.getElementById('whoIsThisGuyContainer1').classList.add('animate__fadeInLeft')
+    document.getElementById('whoIsThisGuyContainer2').classList.add('animate__fadeInRight')
+  })
+
   return (
     <div className={styles.bgImg} >
       <div className='container-fluid'>
         <div className='row justify-content-end'>
           <div className='col-sm-12 col-lg-6 text-center mt-4' >
-            <h2 className={`display-5 fw-bold mt-4 ${styles.textColor} headline`}>WHO`S THIS GUY?</h2>
+            <h3 className={`display-5 fw-bold mt-4 ${styles.textColor} headline`}>WHO`S THIS GUY?</h3>
             <hr />
             <div className={`card ${styles.cardBg} animate__animated`}  id='whoIsThisGuyContainer1'>
               <div className='card-body'>
@@ -30,7 +29,7 @@ function WhoIsThisGuy() {
                 <p className={`card-text fs-5 ${styles.textColor}`}>I really enjoy finding the fastest way to solve problems. I love to learn new things. I also have a passion for cooking. A hobby that led me to live the experience of working as a cook in another country</p>
               </div>
             </div>
-            <h2 className={`display-5 fw-bold mt-4 ${styles.textColor}`} >What does he do?</h2>
+            <h3 className={`display-5 fw-bold mt-4 ${styles.textColor}`} >What does he do?</h3>
             <hr />
             <div className={`card mb-5 ${styles.cardBg} animate__animated`}  id='whoIsThisGuyContainer2'>
               <div className='card-body'>
