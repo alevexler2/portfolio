@@ -57,6 +57,48 @@
 .card0:hover h2{
   opacity: 1;
 }
+.card1{
+  background: url('https://midu.dev/images/wallpapers/javascript-small-vertical-4k.png') center center no-repeat;
+  background-size: 280px;
+  filter: grayscale(100%);
+  background-size: fill;
+}
+.card1:hover{
+  background: url('https://midu.dev/images/wallpapers/javascript-small-vertical-4k.png') left center no-repeat;
+  background-size: 400px;
+  filter: grayscale(0%);
+}
+.card1:hover h2{
+  opacity: 1;
+}
+.card2{
+  background: url('https://c4.wallpaperflare.com/wallpaper/313/44/957/movies-movie-poster-portrait-display-fan-art-pulp-fiction-hd-wallpaper-preview.jpg') center center no-repeat;
+  background-size: 280px;
+  filter: grayscale(100%);
+  background-size: fill;
+}
+.card2:hover{
+  background: url('https://c4.wallpaperflare.com/wallpaper/313/44/957/movies-movie-poster-portrait-display-fan-art-pulp-fiction-hd-wallpaper-preview.jpg') left center no-repeat;
+  background-size: 500px;
+  filter: grayscale(0%);
+}
+.card2:hover h2{
+  opacity: 1;
+}
+.card3{
+  background: url('https://c8.alamy.com/compes/aw2w17/taito-arkanoid-1986-vintage-videojuego-arcade-captura-de-pantalla-solo-para-uso-editorial-aw2w17.jpg') center center no-repeat;
+  background-size: 280px;
+  filter: grayscale(100%);
+  background-size: fill;
+}
+.card3:hover{
+  background: url('https://c8.alamy.com/compes/aw2w17/taito-arkanoid-1986-vintage-videojuego-arcade-captura-de-pantalla-solo-para-uso-editorial-aw2w17.jpg') left center no-repeat;
+  background-size: 500px;
+  filter: grayscale(0%);
+}
+.card3:hover h2{
+  opacity: 1;
+}
 
 
 h2{
@@ -69,7 +111,7 @@ h2{
 
 .textStyle{
   text-shadow: 1px 1px 2px black;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 

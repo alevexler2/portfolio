@@ -5,7 +5,7 @@ import styles from '../Main/Main.module.css';
 
 function Main() {
   return (
-    <div className={`container-fluid `}>
+    <div className={`container-fluid `} id='main'>
       <div className='row align-items-center' style={{height: "93vh"}}>
         <div className={`col-12 text-center ${styles.bgMain} d-flex align-items-center justify-content-center`}>
           <div className='d-flex flex-column animate__animated animate__zoomIn'>

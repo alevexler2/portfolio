@@ -37,10 +37,10 @@ import emailjs from '@emailjs/browser';
   console.log(errors);
   
   return (
-    <div className={`${styles.bgContactMe} container-fluid pb-5`}>
-      <div className='row'>
+    <div className={`${styles.bgContactMe} container-fluid pb-5`} id='contactMe'>
+      <div className='row justify-content-around'>
         <div className='col-10 col-lg-6 mt-5'>
-          <h3 className={`fw-bold display-4 text-center mb-5`}>CERTIFICATIONS</h3>
+          <h3 className={`fw-bold display-4 text-center mb-5 ${styles.textStyle}`}>CERTIFICATIONS</h3>
           <ul className='mt-5'>
             <li className='fs-4 my-4'><a target='_blank' className={`${styles.textStyle} text-decoration-none fw-bold fs-4`} href='https://www.freecodecamp.org/espanol/certification/alevexler/responsive-web-design'>RESPONSIVE WEB DESIGN - FREECODECAMP</a></li>
             <li className='fs-4 my-4'><a target='_blank' className={`${styles.textStyle} text-decoration-none fw-bold fs-4`} href='https://www.freecodecamp.org/certification/alevexler/javascript-algorithms-and-data-structures'>JAVASCRIPT ALGORITHMS & DATA STRUCTURES - FREECODECAMP</a></li>

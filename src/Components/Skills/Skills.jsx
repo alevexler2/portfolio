@@ -1,12 +1,13 @@
 import React from 'react'
 import styles from './Skills.module.css'
-import 'animate.css';
 
 
 function Skills() {
+
+
   return (
-    <div className={` ${styles.bgSkills}`}>
-      <div className='d-flex flex-column justify-content-center py-5'>
+    <div className={` ${styles.bgSkills}`} id='skills'>
+      <div className='d-flex flex-column justify-content-center py-5 '>
         <h3 className={`display-4 text-center fw-bold ${styles.textStyle}`}>Skills</h3>
         <div className='d-flex flex-row py-1'>
           <h4 className='col-3 text-end me-2 fs-5 text-light fw-bold'>HTML</h4>

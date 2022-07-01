@@ -16,7 +16,7 @@ function WhoIsThisGuy() {
   })
 
   return (
-    <div className={styles.bgImg} >
+    <div className={styles.bgImg} id='whoIsThisGuy'>
       <div className='container-fluid'>
         <div className='row justify-content-end'>
           <div className='col-sm-12 col-lg-6 text-center mt-4' >
@@ -35,7 +35,7 @@ function WhoIsThisGuy() {
               <div className='card-body'>
                 <h4 className={`cardt-title mb-2 ${styles.textColor}`}>I'm a Full Stack Web Developer.</h4>
                 <p className={`card-text fs-5 ${styles.textColor}`}>For front-end I usually work with HTML, CSS and JavaScript, including frameworks like Bootstrap, JQuery, Reactjs and Redux.</p>
-                <p className={`card-text fs-5 ${styles.textColor}`}>For the back-end Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro corrupti architecto necessitatibus fugit. Nobis recusandae odio delectus laborum quo quam accusantium incidunt doloremque nam, hic, illum, cumque a illo voluptates?</p>
+                <p className={`card-text fs-5 ${styles.textColor}`}>For the back-end I also work with Javascript (NodeJS, Express & MongoDB).</p>
               </div>
             </div>
           </div>
