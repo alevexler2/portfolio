@@ -58,6 +58,12 @@ function Skills() {
           </div>
         </div>
         <div className='d-flex flex-row py-1'>
+          <h4 className='col-3 text-end me-2 fs-5 text-light fw-bold'>SQL</h4>
+          <div className="progress col-7 mt-1">
+            <div className="progress-bar w-50 bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div className='d-flex flex-row py-1'>
           <h4 className='col-3 text-end me-2 fs-5 text-light fw-bold'>Express JS</h4>
           <div className="progress col-7 mt-1">
             <div className="progress-bar w-50 bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>

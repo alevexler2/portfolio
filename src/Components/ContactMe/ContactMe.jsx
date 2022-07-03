@@ -46,6 +46,7 @@ import emailjs from '@emailjs/browser';
             <li className='fs-4 my-4'><a target='_blank' className={`${styles.textStyle} text-decoration-none fw-bold fs-4`} href='https://www.freecodecamp.org/certification/alevexler/javascript-algorithms-and-data-structures'>JAVASCRIPT ALGORITHMS & DATA STRUCTURES - FREECODECAMP</a></li>
             <li className='fs-4 my-4'><a target='_blank' className={`${styles.textStyle} text-decoration-none fw-bold fs-4`} href='https://www.sololearn.com/Certificate/1097-24382243/pdf/'>REACT & REDUX - SOLOLEARN</a></li>
             <li className='fs-4 my-4'><a target='_blank' className={`${styles.textStyle} text-decoration-none fw-bold fs-4`} href='https://www.sololearn.com/certificates/course/en/24382243/1024/landscape/png'>JAVASCRIPT - SOLOLEARN</a></li>
+            <li className='fs-4 my-4'><a target='_blank' className={`${styles.textStyle} text-decoration-none fw-bold fs-4`} href='https://www.sololearn.com/certificates/course/en/24382243/1060/landscape/png'>SQL - SOLOLEARN</a></li>
           </ul>
         </div>
         <form onSubmit={handleSubmit(onSubmit)} className={`d-flex flex-column m-5 card p-5  bg-dark col-10 col-lg-3`}>
